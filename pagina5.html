@@ -57,46 +57,28 @@
     </header>
 
     <main>
-        <div class="container">
-            <div class="row">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://placedog.net/500/280
-            " class="card-img-top" alt="Perrito">
-                    <div class="card-body">
-                        <h5 class="card-title">Perrito 1</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="https://placedog.net/500/380
-            " class="card-img-top" alt="Perrito2">
-                    <div class="card-body">
-                        <h5 class="card-title">Perrito 2</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="https://placedog.net/500/300
-            " class="card-img-top" alt="Perrito3">
-                    <div class="card-body">
-                        <h5 class="card-title">Perrito 3</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-4">
+              <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+              </div>
             </div>
-        </div>
+            <div class="col-8">
+              <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                <h4 id="list-item-1">Item 1</h4>
+                <p>...</p>
+                <h4 id="list-item-2">Item 2</h4>
+                <p>...</p>
+                <h4 id="list-item-3">Item 3</h4>
+                <p>...</p>
+                <h4 id="list-item-4">Item 4</h4>
+                <p>...</p>
+              </div>
+            </div>
+          </div>  
     </main>
 
     <footer>
